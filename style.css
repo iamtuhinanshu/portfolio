@@ -1,0 +1,208 @@
+* {
+    font-style: oblique;
+    box-sizing: border-box;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    width: auto;
+    /* border: solid rebeccapurple; */
+}
+
+.container {
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.container-1 {
+    height: 100vh;
+    width: 40%;
+    top: 0;
+    /* border: solid red; */
+    position: fixed;
+}
+
+.container-2 {
+    height: auto;
+    width: 60%;
+    /* border: solid green; */
+    position: absolute;
+    right: 0;
+}
+
+.container-1 img {
+    height: 100%;
+    width: 100%;
+    /* background-position: center;
+    background-size: cover; */
+}
+
+/* container 2  */
+/* name styling */
+.name {
+    padding: 120px;
+    text-align: center;
+}
+
+.name h1 {
+    font-size: 4.5rem;
+}
+
+.name p {
+    font-size: 1.5rem;
+}
+
+/* About me styling */
+.about-me {
+    padding: 80px;
+}
+
+.about-me h2 {
+    font-size: 2.5rem;
+}
+
+.about-me p {
+    font-size: 1.5rem;
+    padding: 0 50px;
+}
+
+/* My skills styling */
+.my-skill {
+    font-size: 1.5rem;
+    padding: 80px;
+}
+
+.skill-bar {
+    height: 30px;
+    width: 80%;
+    background-color: grey;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.skill-bar-1 {
+    height: 30px;
+    width: 80%;
+    background-color: lightgray;
+    position: absolute;
+    text-align: center;
+}
+
+.skill-bar-2 {
+    height: 30px;
+    width: 60%;
+    background-color: lightgray;
+    margin-bottom: 25px;
+    position: absolute;
+    text-align: center;
+}
+
+.skill-bar-3 {
+    height: 30px;
+    width: 30%;
+    background-color: lightgray;
+    margin-bottom: 25px;
+    position: absolute;
+    text-align: center;
+}
+
+/* My project */
+.project {
+    font-size: 1.7rem;
+    padding: 0 80px;
+}
+
+.project ul li a {
+    text-decoration: none;
+    color: lightblue;
+
+}
+
+.project ul li {
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+/* Contact */
+.contact {
+    padding: 0 80px;
+}
+
+.contact h1 {
+    font-size: 2.3rem;
+}
+
+.li-contact {
+    font-size: 1.5rem;
+    padding: 0 50px;
+}
+
+.contact ul li {
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+@media screen and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction:column ;
+        position: relative;
+    }
+    .container-1 {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    /* border: solid red; */
+    position: static;
+}
+
+.container-2 {
+    width: 100%;
+    position: static;
+}
+.container-1 img {
+    height: 100%;
+    width: 100%;
+    /* background-position: center;
+    background-size: cover; */
+}
+.name {
+    padding: 10px;
+    text-align: center;
+}
+.name h1{
+    font-size: 2.8rem;
+    margin: 10px;
+}
+.about-me {
+    padding: 10px;
+}
+.about-me h2 p{
+    text-align: center;
+}
+.about-me h2 {
+    font-size: 1.8rem;
+}
+.my-skill {
+    font-size: 1.2rem;
+    padding: 10px;
+}
+.my-skill h3{
+    text-align: justify;
+}
+.li-contact {
+    font-size: 1.3rem;
+    padding: 0 30px;
+}
+
+.project {
+    font-size: 1.4rem;
+    padding: 10px;
+}
+.contact{
+    padding: 10px;
+}
+}
